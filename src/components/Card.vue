@@ -88,7 +88,7 @@ onMounted(() => {
         <p class="product-text"><b>Description:</b> {{ selectedGif.user?.description }}</p>
       </div>
 
-      <div v-if="images.length > 6" class="buttons-container ">
+      <div class="buttons-container ">
         <button v-if="selectedGif.user?.display_name" @click="showAuthorCard" class="button">
           About Author
         </button>
